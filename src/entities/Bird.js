@@ -6,7 +6,7 @@ export default class Bird extends Phaser.Physics.Arcade.Sprite {
     scene.add.existing(this);
     scene.physics.add.existing(this);
 
-    this.setScale(0.25);
+    this.setScale(0.06);
     this.setTint(0xffa84a);
     this.body.setSize(this.width * 0.8, this.height * 0.8, true);
     this.body.setAllowGravity(true);
