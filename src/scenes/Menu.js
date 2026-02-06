@@ -13,7 +13,7 @@ export default class Menu extends Phaser.Scene {
     createOceanBackground(this);
 
     // Title
-    const title = this.add.text(width / 2, height / 3, 'Sky Bird', {
+    const title = this.add.text(width / 2, height / 3, 'Swimmy Fish', {
       fontSize: '64px',
       fontFamily: 'Arial Black, sans-serif',
       color: '#ffd36a',

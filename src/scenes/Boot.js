@@ -10,11 +10,11 @@ export default class Boot extends Phaser.Scene {
     this.load.image('bird', new URL('../assets/images/bird.png', import.meta.url).href);
 
     const pipeGraphics = this.make.graphics({ x: 0, y: 0, add: false });
-    pipeGraphics.fillStyle(0xffffff, 1);
+    pipeGraphics.fillStyle(0xffa74c, 1);
     pipeGraphics.fillRect(0, 0, 60, 200);
-    pipeGraphics.fillStyle(0xdfefff, 1);
+    pipeGraphics.fillStyle(0xffc27f, 1);
     pipeGraphics.fillRect(8, 0, 8, 200);
-    pipeGraphics.fillStyle(0xd6f4ff, 1);
+    pipeGraphics.fillStyle(0xffd6a3, 1);
     pipeGraphics.fillCircle(14, 28, 4);
     pipeGraphics.fillCircle(38, 62, 3);
     pipeGraphics.fillCircle(26, 96, 4);
